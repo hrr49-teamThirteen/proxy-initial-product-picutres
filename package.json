@@ -1,7 +1,7 @@
 {
   "name": "fec-proxy-server-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Overview This is an template proxy server that you can use to quickly display all four individual services on one page, and ensure that your client applications will be able to communicate with their corresponding API. It consists of some middleware that serve up static asset requests, proxy requests for your individual client application bundles, and proxy requests from running client applications to their respective service.",
   "main": "index.js",
   "engines": {
     "node": ">=14.15.0"
@@ -15,6 +15,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "artillery": "^1.6.1",
     "express": "^4.17.1",
     "http-proxy-middleware": "^1.0.6",
     "morgan": "^1.10.0",
@@ -30,5 +31,13 @@
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4.2.0",
     "nodemon": "^2.0.6"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrr49-teamThirteen/taylor-proxy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hrr49-teamThirteen/taylor-proxy/issues"
+  },
+  "homepage": "https://github.com/hrr49-teamThirteen/taylor-proxy#readme"
 }
