@@ -40,26 +40,50 @@
   }
 */
 
+
+// module.exports = {
+//   service1: {
+//     api: ['/carousel/:productid/*', '/carousel'],
+//     url: 'http://3.14.153.82:8081/',
+//     bundle: 'bundle.js',
+//   },
+//   service2: {
+//     api: '/products/:id/*',
+//     url: 'http://13.57.184.36:80/',
+//     bundle: 'bundle.js'
+//   },
+//   service3: {
+//     api: '/initial/*',
+//     url: 'http://ec2-52-91-251-182.compute-1.amazonaws.com/',
+//     bundle: 'bundle.js'
+//   },
+//   service4: {
+//     api: '/ratings/*',
+//     url: 'http://ec2-18-224-69-90.us-east-2.compute.amazonaws.com/',
+//     bundle: 'bundle.js'
+//   }
+// };
+
 module.exports = {
   service1: {
-    api: ['/carousel/:productid/*', '/carousel'],
-    url: 'http://3.14.153.82:8081/',
+    api: '/none',
+    url: 'http://localhost:3001',
     bundle: 'bundle.js',
   },
   service2: {
-    api: '/products/:id/*',
-    url: 'http://13.57.184.36:80/',
-    bundle: 'bundle.js'
+    api: '/none',
+    url: 'http://localhost:3001',
+    bundle: 'bundle.js',
   },
   service3: {
     api: '/initial/*',
-    url: 'http://ec2-52-91-251-182.compute-1.amazonaws.com/',
+    url: 'http://52.91.251.182/',
     bundle: 'bundle.js'
   },
   service4: {
-    api: '/ratings/*',
-    url: 'http://ec2-18-224-69-90.us-east-2.compute.amazonaws.com/',
-    bundle: 'bundle.js'
+    api: '/none',
+    url: 'http://localhost:3001',
+    bundle: 'bundle.js',
   }
 };
 
